@@ -7,6 +7,17 @@
 
 /* generic selectors */
 
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+li {
+    list-style-type: none;
+}
+
 .flex {
     display: flex;
 }
@@ -22,12 +33,8 @@
     clear: both;
 }
 
-li {
-    list-style-type: none;
-}
-
 .container {
-    width: 72.5%;
+    width: 70%;
 }
 
 .p-relative {
@@ -50,13 +57,6 @@ header .container.flex {
 
 ul.flex li.li-categories {
     padding: 1rem 0.2rem;
-}
-
-.li-categories a {
-    text-decoration: none;
-    color: white;
-    font-size: 0.9rem;
-    font-weight: 500;
 }
 
 div.boolean-logo img {
@@ -130,4 +130,30 @@ div.product {
     text-decoration: line-through;
     font-size: 0.8rem;
     font-weight: bold;
+}
+
+/* footer selectors */
+
+footer.bottom-footer {
+    color: white;
+    background-color: #1a1a1a;
+    padding: 1rem;
+}
+
+footer div.container {
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+nav.policies li {
+    padding: 0.2rem
+}
+
+nav.socials {
+    text-align: center;
+}
+
+nav.socials img {
+    height: 2rem;
+    padding-top: 0.3rem;
 }
