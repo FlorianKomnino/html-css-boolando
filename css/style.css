@@ -43,6 +43,7 @@ li {
 
 .p-absolute {
     position : absolute;
+    z-index : 4;
 }
 
 /* header selectors */
@@ -131,6 +132,16 @@ div.product {
     font-size: 0.8rem;
     font-weight: bold;
 }
+
+.primary-image {
+    position: absolute;
+    z-index: 2;
+}
+
+.primary-image:hover {
+    display: none;
+}
+
 
 /* footer selectors */
 
